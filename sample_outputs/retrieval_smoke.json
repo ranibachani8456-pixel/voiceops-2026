@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "purpose": "Technical embedding, FAISS retrieval, source filtering and persisted index reload check; not official-data evaluation",
+  "sources": [
+    {
+      "filename": "fixture.md",
+      "title": "Technical test fixture",
+      "heading": "Technical test fixture",
+      "text": "# Technical test fixture\nThis is a test document about blue bicycles, not an official ZentroMart policy.",
+      "version": null,
+      "chunk_id": "88c94977bf204926b583",
+      "score": 0.6743298768997192
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "failed",
+  "dataset_path": "/Users/ranib/Downloads/Capstone_Project_Dataset_FTTT_2026",
+  "reference_date": "2026-10-20",
+  "selected_order": {
+    "order_id": "86035743",
+    "status": "shipped",
+    "delivery_type": "standard",
+    "payment_method": "upi",
+    "promised_date": "2026-10-16",
+    "contacts_last_7_days": "0"
+  },
+  "checks": [
+    {
+      "name": "All live turns completed",
+      "passed": false
+    },
+    {
+      "name": "Official dataset byte-for-byte unchanged",
+      "passed": true
+    }
+  ],
+  "turns": [],
+  "backend_health": {
+    "status": "ok",
+    "dataset_present": true,
+    "dataset_path": "/Users/ranib/Downloads/Capstone_Project_Dataset_FTTT_2026",
+    "knowledge_documents": 20,
+    "indexed_documents": 0,
+    "indexed_chunks": 0,
+    "gemini_model": "gemini-3.8-flash",
+    "gemini_configured": true,
+    "gnani_configured": true,
+    "reference_date": "2026-10-20"
+  },
+  "main_session_id": "607dd615-c53b-4295-b7ef-0911bdc96a95",
+  "execution_error": {
+    "type": "HTTPStatusError",
+    "detail": "Provider request failed; check credentials, quota, model and network"
+  },
+  "official_dataset_fingerprint": "247fa90fe92cf2c2a9a0ec16c81d10bbd8e5e14788e362a0ed420da477e55440",
+  "passed": 1,
+  "failed": 1
+}

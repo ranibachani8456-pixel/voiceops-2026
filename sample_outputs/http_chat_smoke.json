@@ -1,0 +1,10 @@
+{
+  "session_id": "a19e13a6-b65a-4511-9472-fff56a1498df",
+  "question": "Please introduce yourself.",
+  "answer": "Hello! I am ZentroMart's AI customer support assistant. How can I help you today?",
+  "decision": "answer",
+  "sources": [],
+  "retrieved_sources": [],
+  "tool_calls": [],
+  "warning": "Official knowledge base missing; add dataset/kb/*.md"
+}

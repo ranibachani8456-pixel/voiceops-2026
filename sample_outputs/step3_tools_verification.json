@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "scope": "Actual read-only official helper, policy decisions, durable session state and SQLite tickets; no model responses generated or substituted.",
+  "session_id": "041810b8-65d8-483b-8ad8-bdb5daa56021",
+  "order_id": "86035743",
+  "checks_passed": [
+    "identity_gate",
+    "actual_order_status",
+    "cancellation_CAN-2",
+    "refund_REF-1_REF-2",
+    "unauthorized_compensation_DEL-4",
+    "durable_state_reload",
+    "persisted_ticket_ID",
+    "paraphrase_deduplication",
+    "official_dataset_unchanged"
+  ],
+  "policy_decisions": {
+    "order_id": "86035743",
+    "status": "shipped",
+    "payment_method": "upi",
+    "cancellation": {
+      "eligible": false,
+      "reason": "Order has shipped; cancellation is unavailable. Refusal or eligible return follows policy.",
+      "section_id": "CAN-2"
+    },
+    "refund_after_initiation": {
+      "timeline": "1 to 3 business days",
+      "section_id": "REF-2"
+    },
+    "refund_trigger": {
+      "section_id": "REF-1",
+      "context": "If refused or returned to origin, refund starts on warehouse receipt, not now. Do not claim it is already initiated."
+    },
+    "discretionary_compensation": {
+      "allowed": false,
+      "section_id": "DEL-4",
+      "reason": "No compensation beyond the documented policy entitlement can be awarded by this assistant."
+    }
+  },
+  "ticket": {
+    "id": "ZT-6996d5a9a319",
+    "order_id": "86035743",
+    "summary": "Customer reports delayed order 86035743, shipped and promised for 2026-10-16. Identity checked; current cancellation and refund policies checked. Customer requests human review after unsupported compensation request.\nOrder: 86035743. Intent: delayed_order. Escalation reason: customer_request.",
+    "created_at": "2026-10-25T17:42:26.150367+00:00",
+    "created": true,
+    "ticket_id": "ZT-6996d5a9a319",
+    "reused": false
+  },
+  "duplicate_ticket": {
+    "id": "ZT-6996d5a9a319",
+    "order_id": "86035743",
+    "summary": "Customer reports delayed order 86035743, shipped and promised for 2026-10-16. Identity checked; current cancellation and refund policies checked. Customer requests human review after unsupported compensation request.\nOrder: 86035743. Intent: delayed_order. Escalation reason: customer_request.",
+    "created_at": "2026-10-25T17:42:26.150367+00:00",
+    "created": true,
+    "ticket_id": "ZT-6996d5a9a319",
+    "reused": true
+  },
+  "tool_calls": [
+    "lookup_order",
+    "lookup_order",
+    "assess_order_policy",
+    "create_ticket",
+    "create_ticket"
+  ],
+  "database": "/Users/ranib/Documents/ChatGPT/capstone project/runtime/voiceops.sqlite3",
+  "official_dataset_fingerprint": "247fa90fe92cf2c2a9a0ec16c81d10bbd8e5e14788e362a0ed420da477e55440",
+  "persisted_ticket_retrieved_over_http_after_backend_restart": true,
+  "http_status": 200
+}

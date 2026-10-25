@@ -1,0 +1,38 @@
+{
+  "backend": {
+    "http_status": 200,
+    "response": {
+      "status": "ok",
+      "dataset_present": true,
+      "dataset_path": "/Users/ranib/Downloads/Capstone_Project_Dataset_FTTT_2026",
+      "knowledge_documents": 20,
+      "indexed_documents": 0,
+      "indexed_chunks": 0,
+      "gemini_model": "gemini-3-flash-preview",
+      "gemini_thinking_level": "minimal",
+      "gemini_configured": true,
+      "gnani_configured": true,
+      "reference_date": "2026-10-20"
+    }
+  },
+  "frontend_proxy": {
+    "http_status": 200,
+    "response": {
+      "status": "ok",
+      "dataset_present": true,
+      "dataset_path": "/Users/ranib/Downloads/Capstone_Project_Dataset_FTTT_2026",
+      "knowledge_documents": 20,
+      "indexed_documents": 0,
+      "indexed_chunks": 0,
+      "gemini_model": "gemini-3-flash-preview",
+      "gemini_thinking_level": "minimal",
+      "gemini_configured": true,
+      "gnani_configured": true,
+      "reference_date": "2026-10-20"
+    }
+  },
+  "ffmpeg_available": false,
+  "ffprobe_available": false,
+  "persisted_index_documents": 20,
+  "persisted_index_chunks": 102
+}

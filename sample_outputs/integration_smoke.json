@@ -1,0 +1,15 @@
+{
+  "gemini": {
+    "status": "passed",
+    "response": "Hello! I am ZentroMart's AI customer support assistant, here to assist you with any questions or support needs you may have."
+  },
+  "gnani_tts": {
+    "status": "passed",
+    "audio_filename": "f6a3623eb239474ab3d1c1e0a1412b46.wav",
+    "bytes": 102444
+  },
+  "gnani_stt": {
+    "status": "passed",
+    "transcript": "hello i am the zentromart ai support assistant"
+  }
+}

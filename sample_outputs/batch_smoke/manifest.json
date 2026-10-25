@@ -1,0 +1,22 @@
+{
+  "total": 1,
+  "complete": 1,
+  "results": [
+    {
+      "input_filename": "greeting.wav",
+      "conversation_id": "greeting.wav",
+      "turn": 0,
+      "status": "complete",
+      "transcript": "hello i am the zentromart ai support assistant",
+      "session_id": "fce43cc1-6d51-475f-9d65-b6074f72cbe9",
+      "question": "hello i am the zentromart ai support assistant",
+      "answer": "Hello! I am ZentroMart's AI customer support assistant. How can I assist you today? Please let me know what question or issue you need help with.",
+      "decision": "clarify",
+      "sources": [],
+      "retrieved_sources": [],
+      "tool_calls": [],
+      "warning": "Official knowledge base missing; add dataset/kb/*.md",
+      "output_audio": "0000.wav"
+    }
+  ]
+}

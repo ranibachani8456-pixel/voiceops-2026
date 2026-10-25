@@ -1,0 +1,15 @@
+{
+  "tts_model": "timbre-v2.5",
+  "voice": "Nalini",
+  "language": "en-IN",
+  "ffmpeg_available": false,
+  "ffprobe_available": false,
+  "attempts": 1,
+  "tts_status": "passed",
+  "audio_file": "submission_voice.wav",
+  "audio_bytes": 143404,
+  "stt_status": "passed",
+  "transcript": "hello this is a voice of submission verification using gyani speech",
+  "status": "passed",
+  "scope": "Single real Gnani TTS-to-STT WAV round trip; no Gemini call and no browser microphone verification."
+}

@@ -1,0 +1,12 @@
+{
+  "session_id": "f90f55bf-4b29-47e4-8922-f0aeb97aa3d5",
+  "question": "hello i am the zentromart ai support assistant",
+  "answer": "Hello! I am ZentroMart's AI customer support assistant. How can I help you today?",
+  "decision": "clarify",
+  "sources": [],
+  "retrieved_sources": [],
+  "tool_calls": [],
+  "warning": "Official knowledge base missing; add dataset/kb/*.md",
+  "audio_url": "/api/audio/9ce62fadf10d4032af595b87fbe6eee0.wav",
+  "transcript": "hello i am the zentromart ai support assistant"
+}
